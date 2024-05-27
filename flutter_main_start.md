@@ -35,7 +35,24 @@ body: Padding(
 padding: EdgeInsets.fromLTRB(30.0,40.0,0.0,0.0),
 child: Column(
 children:[
+
 Text('NAME',
+style: TextStyle(
+      color: colors.red,
+      letterSpacing: 20.0,
+      fontSize: 20.0,
+      fontWeight: FontWeight.Bold,
+)
+),
+
+//Sized Box
+SizedBox(
+height:10.0
+),
+
+
+
+Text('NAME2',
 style: TextStyle(
       color: colors.red,
       letterSpacing: 20.0,
