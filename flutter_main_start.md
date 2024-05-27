@@ -40,7 +40,7 @@ style: TextStyle(
       color: colors.red,
       letterSpacing: 20.0,
       fontSize: 20.0,
-      fontWeight: Bold,
+      fontWeight: FontWeight.Bold,
 )
 )
 ]
